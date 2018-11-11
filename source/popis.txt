@@ -1,0 +1,17 @@
+# DATA
+* [List of czech municipalities](https://github.com/rotten77/cr-kraje-okresy-obce/blob/master/cr-kraje-okresy-obce.sql)
+* [Population in czech municipalities](https://www.czso.cz/csu/czso/pocet-obyvatel-v-obcich-see2a5tx8j)
+* [Completed dwellings in czech municipalities](https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatov%C3%A1-sada%2Fhttp---vdb.czso.cz-pll-eweb-package_show-id-200068)
+
+Data will be connected by ZUJ code (Základní územní jednotka = Basic territorial unit).
+
+## List of municipalities in the Czech Republic
+* Data format: MySQL
+
+
+## Population in czech municipalities
+* Data format: Microsoft Excel
+
+
+## Completed dwellings in czech municipalities
+* Data format: CSV
