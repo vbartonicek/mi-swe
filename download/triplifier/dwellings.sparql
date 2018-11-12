@@ -1,0 +1,38 @@
+PREFIX ex: <http://vbartonicek.cz/swe/a#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?URI a ex:Dwellings;
+    ex:value ?value;
+    ex:staproKod ?staproKod;
+    ex:tb_cis ?tbCis;
+    ex:tb_kod ?tbKod;
+    ex:vuzemi_cis ?vuzemiCis;
+    ex:vuzemi_kod ?vuzemiKod;
+    ex:year ?year;
+    ex:dateFrom ?dateFrom;
+    ex:dateTo ?dateTo;
+    ex:staproTxt ?staproTxt;
+    ex:tbTxt ?tbTxt;
+    ex:vuzemiTxt ?vuzemiTxt;
+}
+WHERE {
+  BIND (URI(CONCAT('http://vbartonicek.cz/swe/dwellings/', ?idhod)) AS ?URI)
+  BIND (xsd:integer(?hodnota) AS ?value)
+  BIND (xsd:integer(?stapro_kod) AS ?staproKod)
+  BIND (xsd:integer(?tb_cis) AS ?tbCis)
+  BIND (xsd:integer(?tb_kod) AS ?tbKod)
+  BIND (xsd:integer(?vuzemi_cis) AS ?vuzemiCis)
+  BIND (xsd:integer(?vuzemi_kod) AS ?vuzemiKod)
+  BIND (xsd:integer(?rok) AS ?year)
+  BIND (xsd:date(?casref_od) AS ?dateFrom)
+  BIND (xsd:date(?casref_do) AS ?dateTo)
+  BIND (xsd:string(?stapro_txt) AS ?staproTxt)
+  BIND (xsd:string(?tb_txt) AS ?tbTxt)
+  BIND (xsd:string(?vuzemi_txt) AS ?vuzemiTxt)
+  FILTER(?value != 0)
+  FILTER(?year = 2017)
+}
+
+OFFSET 1
+#LIMIT 10
