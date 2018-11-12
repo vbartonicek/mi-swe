@@ -27,9 +27,9 @@ WHERE {
   BIND (xsd:integer(?rok) AS ?year)
   BIND (xsd:date(?casref_od) AS ?dateFrom)
   BIND (xsd:date(?casref_do) AS ?dateTo)
-  BIND (xsd:string(?stapro_txt) AS ?staproTxt)
-  BIND (xsd:string(?tb_txt) AS ?tbTxt)
-  BIND (xsd:string(?vuzemi_txt) AS ?vuzemiTxt)
+  BIND (STRLANG(?stapro_txt, "cs") AS ?staproTxt)
+  BIND (STRLANG(?tb_txt, "cs") AS ?tbTxt)
+  BIND (STRLANG(?vuzemi_txt, "cs") AS ?vuzemiTxt)
   FILTER(?value != 0)
   FILTER(?year = 2017)
 }

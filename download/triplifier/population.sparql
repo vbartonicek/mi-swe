@@ -3,28 +3,29 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
   ?URI a ex:Population;
-#    ex:municipalityId ?municipalityId;
-#    ex:municipalityName ?municipalityName;
-#    ex:countyId ?countyId;
+    ex:municipality ?municipalityId;
     ex:population ?population;
     ex:populationMen ?populationMen;
     ex:populationWomen ?populationWomen;
     ex:averageAge ?averageAge;
     ex:averageAgeMen ?averageAgeMen;
-    ex:averageAgeWomen ?averageAgeWomen;
+    ex:averageAgeWomen ?averageAgeWomen .
+
+  ?municipalityId a ex:Municipality;
+    ex:municipalityName ?municipalityName .
+
 }
 WHERE {
   BIND (URI(CONCAT('http://vbartonicek.cz/swe/population/', ?b)) AS ?URI)
-  BIND (xsd:integer(?a) AS ?countyId)
-  BIND (xsd:integer(?b) AS ?municipalityId)
-  BIND (xsd:string(?c) AS ?municipalityName)
+  BIND(IRI(CONCAT("http://vbartonicek.cz/swe/municipalities/", ?b)) as ?municipalityId)
+  BIND (STRLANG(?c, "cs") AS ?municipalityName)
   BIND (xsd:integer(?d) AS ?population)
   BIND (xsd:integer(?e) AS ?populationMen)
   BIND (xsd:integer(?f) AS ?populationWomen)
-  BIND (xsd:string(?g) AS ?averageAge)
-  BIND (xsd:string(?h) AS ?averageAgeMen)
-  BIND (xsd:string(?i) AS ?averageAgeWomen)
+  BIND(xsd:double(REPLACE(STR(?g),"\\,",".")) AS ?averageAge) .
+  BIND(xsd:double(REPLACE(STR(?h),"\\,",".")) AS ?averageAgeMen) .
+  BIND(xsd:double(REPLACE(STR(?i),"\\,",".")) AS ?averageAgeWomen) .
 }
 
 OFFSET 5
-LIMIT 10
+#LIMIT 10
