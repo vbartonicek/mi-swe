@@ -1,0 +1,30 @@
+PREFIX ex: <http://vbartonicek.cz/swe/a#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?URI a ex:Population;
+#    ex:municipalityId ?municipalityId;
+#    ex:municipalityName ?municipalityName;
+#    ex:countyId ?countyId;
+    ex:population ?population;
+    ex:populationMen ?populationMen;
+    ex:populationWomen ?populationWomen;
+    ex:averageAge ?averageAge;
+    ex:averageAgeMen ?averageAgeMen;
+    ex:averageAgeWomen ?averageAgeWomen;
+}
+WHERE {
+  BIND (URI(CONCAT('http://vbartonicek.cz/swe/population/', ?b)) AS ?URI)
+  BIND (xsd:integer(?a) AS ?countyId)
+  BIND (xsd:integer(?b) AS ?municipalityId)
+  BIND (xsd:string(?c) AS ?municipalityName)
+  BIND (xsd:integer(?d) AS ?population)
+  BIND (xsd:integer(?e) AS ?populationMen)
+  BIND (xsd:integer(?f) AS ?populationWomen)
+  BIND (xsd:string(?g) AS ?averageAge)
+  BIND (xsd:string(?h) AS ?averageAgeMen)
+  BIND (xsd:string(?i) AS ?averageAgeWomen)
+}
+
+OFFSET 5
+LIMIT 10

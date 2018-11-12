@@ -28,7 +28,7 @@ D2RQ_SERVER = http://localhost:2020/
 # ---------
 
 # Generate a mapping file for your database schema using the generate-mapping tool. Change into the D2R Server directory and run
-sudo ./generate-mapping -o dwellings-mapping.ttl -u ${DB_USER} -p ${DB_PASSWORD} jdbc:${DB_SERVER}/${DB_NAME}
+sudo ./generate-mapping -o dwellings-mapping.ttl -u ${DB_USER} -p ${DB_PASSWORD} jdbc:${DB_SERVER}{}${DB_NAME}
 
 # Start D2R Server
 d2r-server mapping.ttl
@@ -46,4 +46,5 @@ sudo ./dump-rdf -f N-TRIPLE -b ${D2RQ_SERVER} dwellings-mapping.ttl > ${OUTPUT}/
 # Population
 # ---------
 
-# TODO
+tarql -d ";" ${DIR}/population.sparql ${SOURCE}/population.csv > ${OUTPUT}/population.ttl
+tarql -d ";" --ntriples ${DIR}/population.sparql ${SOURCE}/population.csv > ${OUTPUT}/population.nt

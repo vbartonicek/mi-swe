@@ -1,0 +1,84 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:  <http://vbartonicek.cz/swe/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://vbartonicek.cz/swe/population/529303>
+        rdf:type            ex:Population ;
+        ex:population       16522 ;
+        ex:populationMen    7906 ;
+        ex:populationWomen  8616 ;
+        ex:averageAge       "42,6" ;
+        ex:averageAgeMen    "41,0" ;
+        ex:averageAgeWomen  "44,0" .
+
+<http://vbartonicek.cz/swe/population/532568>
+        rdf:type            ex:Population ;
+        ex:population       233 ;
+        ex:populationMen    113 ;
+        ex:populationWomen  120 ;
+        ex:averageAge       "44,3" ;
+        ex:averageAgeMen    "47,5" ;
+        ex:averageAgeWomen  "41,2" .
+
+<http://vbartonicek.cz/swe/population/530743>
+        rdf:type            ex:Population ;
+        ex:population       207 ;
+        ex:populationMen    104 ;
+        ex:populationWomen  103 ;
+        ex:averageAge       "43,2" ;
+        ex:averageAgeMen    "42,7" ;
+        ex:averageAgeWomen  "43,7" .
+
+<http://vbartonicek.cz/swe/population/532380>
+        rdf:type            ex:Population ;
+        ex:population       116 ;
+        ex:populationMen    54 ;
+        ex:populationWomen  62 ;
+        ex:averageAge       "45,9" ;
+        ex:averageAgeMen    "43,2" ;
+        ex:averageAgeWomen  "48,2" .
+
+<http://vbartonicek.cz/swe/population/532096>
+        rdf:type            ex:Population ;
+        ex:population       84 ;
+        ex:populationMen    40 ;
+        ex:populationWomen  44 ;
+        ex:averageAge       "45,3" ;
+        ex:averageAgeMen    "46,8" ;
+        ex:averageAgeWomen  "44,0" .
+
+<http://vbartonicek.cz/swe/population/532924>
+        rdf:type            ex:Population ;
+        ex:population       770 ;
+        ex:populationMen    382 ;
+        ex:populationWomen  388 ;
+        ex:averageAge       "39,7" ;
+        ex:averageAgeMen    "40,6" ;
+        ex:averageAgeWomen  "38,9" .
+
+<http://vbartonicek.cz/swe/population/529451>
+        rdf:type            ex:Population ;
+        ex:population       4370 ;
+        ex:populationMen    2169 ;
+        ex:populationWomen  2201 ;
+        ex:averageAge       "41,3" ;
+        ex:averageAgeMen    "40,4" ;
+        ex:averageAgeWomen  "42,3" .
+
+<http://vbartonicek.cz/swe/population/532690>
+        rdf:type            ex:Population ;
+        ex:population       133 ;
+        ex:populationMen    68 ;
+        ex:populationWomen  65 ;
+        ex:averageAge       "37,8" ;
+        ex:averageAgeMen    "38,3" ;
+        ex:averageAgeWomen  "37,3" .
+
+<http://vbartonicek.cz/swe/population/529478>
+        rdf:type            ex:Population ;
+        ex:population       124 ;
+        ex:populationMen    63 ;
+        ex:populationWomen  61 ;
+        ex:averageAge       "39,3" ;
+        ex:averageAgeMen    "38,6" ;
+        ex:averageAgeWomen  "39,9" .
