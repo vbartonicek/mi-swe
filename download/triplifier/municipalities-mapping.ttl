@@ -11,7 +11,6 @@ map:database a d2rq:Database;
 	d2rq:jdbcDriver "com.mysql.jdbc.Driver";
 	d2rq:jdbcDSN "jdbc:mysql://127.0.0.1/mi-swe";
 	d2rq:username "root";
-	d2rq:password "";
 	jdbc:zeroDateTimeBehavior "convertToNull";
 	jdbc:autoReconnect "true";
 	.
