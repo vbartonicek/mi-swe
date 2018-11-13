@@ -22,9 +22,9 @@ WHERE {
   BIND (xsd:integer(?d) AS ?population)
   BIND (xsd:integer(?e) AS ?populationMen)
   BIND (xsd:integer(?f) AS ?populationWomen)
-  BIND(xsd:double(REPLACE(STR(?g),"\\,",".")) AS ?averageAge) .
-  BIND(xsd:double(REPLACE(STR(?h),"\\,",".")) AS ?averageAgeMen) .
-  BIND(xsd:double(REPLACE(STR(?i),"\\,",".")) AS ?averageAgeWomen) .
+  BIND(xsd:float(REPLACE(STR(?g),"\\,",".")) AS ?averageAge) .
+  BIND(xsd:float(REPLACE(STR(?h),"\\,",".")) AS ?averageAgeMen) .
+  BIND(xsd:float(REPLACE(STR(?i),"\\,",".")) AS ?averageAgeWomen) .
 }
 
 OFFSET 5

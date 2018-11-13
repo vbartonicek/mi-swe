@@ -30,6 +30,7 @@ WHERE {
   BIND (STRLANG(?stapro_txt, "cs") AS ?staproTxt)
   BIND (STRLANG(?tb_txt, "cs") AS ?tbTxt)
   BIND (STRLANG(?vuzemi_txt, "cs") AS ?vuzemiTxt)
+  # Filtered records to have non-zero values from year of 2017 in reason of dataset's size
   FILTER(?value != 0)
   FILTER(?year = 2017)
 }

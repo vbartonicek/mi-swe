@@ -1,17 +1,20 @@
 # DATA
-* [List of czech municipalities](https://github.com/rotten77/cr-kraje-okresy-obce/blob/master/cr-kraje-okresy-obce.sql)
-* [Population in czech municipalities](https://www.czso.cz/csu/czso/pocet-obyvatel-v-obcich-see2a5tx8j)
-* [Completed dwellings in czech municipalities](https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatov%C3%A1-sada%2Fhttp---vdb.czso.cz-pll-eweb-package_show-id-200068)
+* [List of Czech municipalities](https://github.com/rotten77/cr-kraje-okresy-obce/blob/master/cr-kraje-okresy-obce.sql)
+* [Population in Czech municipalities](https://www.czso.cz/csu/czso/pocet-obyvatel-v-obcich-see2a5tx8j)
+* [Completed dwellings in Czech municipalities](https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatov%C3%A1-sada%2Fhttp---vdb.czso.cz-pll-eweb-package_show-id-200068)
 
 Data will be connected by ZUJ code (Základní územní jednotka = Basic territorial unit).
 
-## List of municipalities in the Czech Republic
+## List of Czech municipalities
+* Description: It includes a list of Czech municipalities and counties
 * Data format: MySQL
 
 
-## Population in czech municipalities
-* Data format: Microsoft Excel
+## Population in Czech municipalities
+* Description: It includes information about population count and average age (total, men and women) for each municipality
+* Data format: Microsoft Excel (.xlxs)
 
 
-## Completed dwellings in czech municipalities
+## Completed dwellings in Czech municipalities
+* Description: It includes data about built dwellings in each municipality. The data covers years 2001 to 2017. I will use only year 2017 as thee dataset is quite large.
 * Data format: CSV

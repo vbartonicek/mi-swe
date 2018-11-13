@@ -37,8 +37,8 @@ sudo ./dump-rdf -f N-TRIPLE -b ${D2RQ_SERVER} municipalities-mapping.ttl > ${OUT
 # Dwellings
 # ---------
 
-tarql -d ";" ${DIR}/dwellings.sparql ${SOURCE}/dwellings.csv > ${OUTPUT}/dwellings.ttl
-tarql -d ";" --ntriples ${DIR}/dwellings.sparql ${SOURCE}/dwellings.csv > ${OUTPUT}/dwellings.nt
+tarql ${DIR}/dwellings.sparql ${SOURCE}/dwellings.csv > ${OUTPUT}/dwellings.ttl
+tarql --ntriples ${DIR}/dwellings.sparql ${SOURCE}/dwellings.csv > ${OUTPUT}/dwellings.nt
 
 
 # Population
