@@ -120,7 +120,7 @@
         ex:population       124 ;
         ex:populationMen    63 ;
         ex:populationWomen  61 ;
-        ex:averageAge       "39.3"^^xsd:float ;
+        ex:averageAge       "39.2"^^xsd:float ;
         ex:averageAgeMen    "38.6"^^xsd:float ;
         ex:averageAgeWomen  "39.9"^^xsd:float .
 
@@ -700,7 +700,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/530107>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Louňovice pod Blan��kem"@cs .
+        ex:municipalityName  "Louňovice pod Blaníkem"@cs .
 
 <http://vbartonicek.cz/swe/population/532193>
         rdf:type            ex:Population ;
@@ -1143,7 +1143,7 @@
         ex:populationMen    20 ;
         ex:populationWomen  17 ;
         ex:averageAge       "45.1"^^xsd:float ;
-        ex:averageAgeMen    "43.6"^^xsd:float ;
+        ex:averageAgeMen    "43.5"^^xsd:float ;
         ex:averageAgeWomen  "47.0"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/532231>
@@ -1269,7 +1269,7 @@
         ex:populationMen    52 ;
         ex:populationWomen  46 ;
         ex:averageAge       "43.4"^^xsd:float ;
-        ex:averageAgeMen    "40.3"^^xsd:float ;
+        ex:averageAgeMen    "40.2"^^xsd:float ;
         ex:averageAgeWomen  "47.0"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/530719>
@@ -1997,7 +1997,7 @@
         ex:populationMen    160 ;
         ex:populationWomen  147 ;
         ex:averageAge       "41.5"^^xsd:float ;
-        ex:averageAgeMen    "40.7"^^xsd:float ;
+        ex:averageAgeMen    "40.6"^^xsd:float ;
         ex:averageAgeWomen  "42.5"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/534072>
@@ -2572,7 +2572,7 @@
         ex:populationWomen  120 ;
         ex:averageAge       "44.0"^^xsd:float ;
         ex:averageAgeMen    "43.7"^^xsd:float ;
-        ex:averageAgeWomen  "44.2"^^xsd:float .
+        ex:averageAgeWomen  "44.1"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/534463>
         rdf:type             ex:Municipality ;
@@ -3314,7 +3314,7 @@
         ex:populationWomen  280 ;
         ex:averageAge       "41.2"^^xsd:float ;
         ex:averageAgeMen    "39.4"^^xsd:float ;
-        ex:averageAgeWomen  "43.3"^^xsd:float .
+        ex:averageAgeWomen  "43.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/532495>
         rdf:type             ex:Municipality ;
@@ -3972,7 +3972,7 @@
         ex:populationWomen  180 ;
         ex:averageAge       "37.9"^^xsd:float ;
         ex:averageAgeMen    "36.3"^^xsd:float ;
-        ex:averageAgeWomen  "39.7"^^xsd:float .
+        ex:averageAgeWomen  "39.6"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/533009>
         rdf:type             ex:Municipality ;
@@ -6169,7 +6169,7 @@
         ex:populationMen    80 ;
         ex:populationWomen  78 ;
         ex:averageAge       "48.5"^^xsd:float ;
-        ex:averageAgeMen    "49.1"^^xsd:float ;
+        ex:averageAgeMen    "49.0"^^xsd:float ;
         ex:averageAgeWomen  "48.0"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/534374>
@@ -12861,7 +12861,7 @@
         ex:populationMen    576 ;
         ex:populationWomen  635 ;
         ex:averageAge       "38.1"^^xsd:float ;
-        ex:averageAgeMen    "37.3"^^xsd:float ;
+        ex:averageAgeMen    "37.2"^^xsd:float ;
         ex:averageAgeWomen  "38.8"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/539651>
@@ -16626,7 +16626,7 @@
         ex:population       236 ;
         ex:populationMen    121 ;
         ex:populationWomen  115 ;
-        ex:averageAge       "40.3"^^xsd:float ;
+        ex:averageAge       "40.2"^^xsd:float ;
         ex:averageAgeMen    "36.8"^^xsd:float ;
         ex:averageAgeWomen  "43.9"^^xsd:float .
 
@@ -17383,7 +17383,7 @@
         ex:populationMen    20 ;
         ex:populationWomen  14 ;
         ex:averageAge       "47.5"^^xsd:float ;
-        ex:averageAgeMen    "47.3"^^xsd:float ;
+        ex:averageAgeMen    "47.2"^^xsd:float ;
         ex:averageAgeWomen  "47.9"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/535915>
@@ -18490,7 +18490,7 @@
         ex:populationWomen  180 ;
         ex:averageAge       "36.1"^^xsd:float ;
         ex:averageAgeMen    "36.1"^^xsd:float ;
-        ex:averageAgeWomen  "36.2"^^xsd:float .
+        ex:averageAgeWomen  "36.1"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/562467>
         rdf:type             ex:Municipality ;
@@ -18826,7 +18826,7 @@
         ex:populationWomen  64 ;
         ex:averageAge       "42.0"^^xsd:float ;
         ex:averageAgeMen    "42.9"^^xsd:float ;
-        ex:averageAgeWomen  "41.3"^^xsd:float .
+        ex:averageAgeWomen  "41.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/562769>
         rdf:type             ex:Municipality ;
@@ -19343,7 +19343,7 @@
         ex:populationMen    56 ;
         ex:populationWomen  65 ;
         ex:averageAge       "42.1"^^xsd:float ;
-        ex:averageAgeMen    "42.3"^^xsd:float ;
+        ex:averageAgeMen    "42.2"^^xsd:float ;
         ex:averageAgeWomen  "42.0"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/561045>
@@ -21877,7 +21877,7 @@
         ex:populationMen    188 ;
         ex:populationWomen  169 ;
         ex:averageAge       "44.2"^^xsd:float ;
-        ex:averageAgeMen    "43.3"^^xsd:float ;
+        ex:averageAgeMen    "43.2"^^xsd:float ;
         ex:averageAgeWomen  "45.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/551015>
@@ -22130,7 +22130,7 @@
         ex:populationWomen  44 ;
         ex:averageAge       "46.6"^^xsd:float ;
         ex:averageAgeMen    "44.8"^^xsd:float ;
-        ex:averageAgeWomen  "48.3"^^xsd:float .
+        ex:averageAgeWomen  "48.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/536946>
         rdf:type             ex:Municipality ;
@@ -22368,7 +22368,7 @@
         ex:populationWomen  60 ;
         ex:averageAge       "44.3"^^xsd:float ;
         ex:averageAgeMen    "43.9"^^xsd:float ;
-        ex:averageAgeWomen  "44.7"^^xsd:float .
+        ex:averageAgeWomen  "44.6"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/536822>
         rdf:type             ex:Municipality ;
@@ -23109,7 +23109,7 @@
         ex:populationMen    28 ;
         ex:populationWomen  22 ;
         ex:averageAge       "55.5"^^xsd:float ;
-        ex:averageAgeMen    "53.3"^^xsd:float ;
+        ex:averageAgeMen    "53.2"^^xsd:float ;
         ex:averageAgeWomen  "58.3"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/536504>
@@ -23754,7 +23754,7 @@
         ex:populationWomen  80 ;
         ex:averageAge       "39.3"^^xsd:float ;
         ex:averageAgeMen    "39.5"^^xsd:float ;
-        ex:averageAgeWomen  "39.2"^^xsd:float .
+        ex:averageAgeWomen  "39.1"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/563030>
         rdf:type             ex:Municipality ;
@@ -24402,7 +24402,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/553174>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Sudoměřice u Tábora"@cs .
+        ex:municipalityName  "Sudomě��ice u Tábora"@cs .
 
 <http://vbartonicek.cz/swe/population/553182>
         rdf:type            ex:Population ;
@@ -24818,7 +24818,7 @@
         ex:populationWomen  64 ;
         ex:averageAge       "40.4"^^xsd:float ;
         ex:averageAgeMen    "40.6"^^xsd:float ;
-        ex:averageAgeWomen  "40.3"^^xsd:float .
+        ex:averageAgeWomen  "40.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/553506>
         rdf:type             ex:Municipality ;
@@ -26050,11 +26050,11 @@
         ex:populationWomen  40 ;
         ex:averageAge       "44.0"^^xsd:float ;
         ex:averageAgeMen    "47.0"^^xsd:float ;
-        ex:averageAgeWomen  "41.7"^^xsd:float .
+        ex:averageAgeWomen  "41.6"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/530085>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Bukovník"@cs .
+        ex:municipalityName  "Bukovn��k"@cs .
 
 <http://vbartonicek.cz/swe/population/555941>
         rdf:type            ex:Population ;
@@ -26204,7 +26204,7 @@
         ex:populationWomen  20 ;
         ex:averageAge       "52.4"^^xsd:float ;
         ex:averageAgeMen    "49.7"^^xsd:float ;
-        ex:averageAgeWomen  "57.1"^^xsd:float .
+        ex:averageAgeWomen  "57.0"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/578517>
         rdf:type             ex:Municipality ;
@@ -27911,7 +27911,7 @@
         ex:populationMen    60 ;
         ex:populationWomen  59 ;
         ex:averageAge       "43.7"^^xsd:float ;
-        ex:averageAgeMen    "44.6"^^xsd:float ;
+        ex:averageAgeMen    "44.5"^^xsd:float ;
         ex:averageAgeWomen  "42.8"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/540064>
@@ -28331,7 +28331,7 @@
         ex:populationMen    60 ;
         ex:populationWomen  43 ;
         ex:averageAge       "42.8"^^xsd:float ;
-        ex:averageAgeMen    "38.7"^^xsd:float ;
+        ex:averageAgeMen    "38.6"^^xsd:float ;
         ex:averageAgeWomen  "48.6"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/540421>
@@ -28724,7 +28724,7 @@
         ex:populationWomen  20 ;
         ex:averageAge       "58.8"^^xsd:float ;
         ex:averageAgeMen    "54.5"^^xsd:float ;
-        ex:averageAgeWomen  "63.1"^^xsd:float .
+        ex:averageAgeWomen  "63.0"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/540137>
         rdf:type             ex:Municipality ;
@@ -28766,7 +28766,7 @@
         ex:populationWomen  40 ;
         ex:averageAge       "42.7"^^xsd:float ;
         ex:averageAgeMen    "43.3"^^xsd:float ;
-        ex:averageAgeWomen  "42.1"^^xsd:float .
+        ex:averageAgeWomen  "42.0"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/530239>
         rdf:type             ex:Municipality ;
@@ -28960,7 +28960,7 @@
         ex:population       140 ;
         ex:populationMen    72 ;
         ex:populationWomen  68 ;
-        ex:averageAge       "40.6"^^xsd:float ;
+        ex:averageAge       "40.5"^^xsd:float ;
         ex:averageAgeMen    "39.8"^^xsd:float ;
         ex:averageAgeWomen  "41.4"^^xsd:float .
 
@@ -30170,7 +30170,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/559750>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Bu��ovice"@cs .
+        ex:municipalityName  "Bušovice"@cs .
 
 <http://vbartonicek.cz/swe/population/559768>
         rdf:type            ex:Population ;
@@ -33992,7 +33992,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/546453>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Kámen"@cs .
+        ex:municipalityName  "K��men"@cs .
 
 <http://vbartonicek.cz/swe/population/562611>
         rdf:type            ex:Population ;
@@ -34015,7 +34015,7 @@
         ex:populationMen    120 ;
         ex:populationWomen  132 ;
         ex:averageAge       "41.0"^^xsd:float ;
-        ex:averageAgeMen    "41.6"^^xsd:float ;
+        ex:averageAgeMen    "41.5"^^xsd:float ;
         ex:averageAgeWomen  "40.6"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/546330>
@@ -34686,7 +34686,7 @@
         ex:population       140 ;
         ex:populationMen    78 ;
         ex:populationWomen  62 ;
-        ex:averageAge       "44.3"^^xsd:float ;
+        ex:averageAge       "44.2"^^xsd:float ;
         ex:averageAgeMen    "43.4"^^xsd:float ;
         ex:averageAgeWomen  "45.4"^^xsd:float .
 
@@ -36778,7 +36778,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/566306>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Kr��sný Dvůr"@cs .
+        ex:municipalityName  "Krásný Dvůr"@cs .
 
 <http://vbartonicek.cz/swe/population/566314>
         rdf:type            ex:Population ;
@@ -38076,7 +38076,7 @@
         ex:populationWomen  120 ;
         ex:averageAge       "42.0"^^xsd:float ;
         ex:averageAgeMen    "42.7"^^xsd:float ;
-        ex:averageAgeWomen  "41.3"^^xsd:float .
+        ex:averageAgeWomen  "41.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/567701>
         rdf:type             ex:Municipality ;
@@ -38612,7 +38612,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/561398>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Bezd��z"@cs .
+        ex:municipalityName  "Bezděz"@cs .
 
 <http://vbartonicek.cz/swe/population/561401>
         rdf:type            ex:Population ;
@@ -39140,7 +39140,7 @@
         ex:populationWomen  80 ;
         ex:averageAge       "40.5"^^xsd:float ;
         ex:averageAgeMen    "38.9"^^xsd:float ;
-        ex:averageAgeWomen  "42.2"^^xsd:float .
+        ex:averageAgeWomen  "42.1"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/513890>
         rdf:type             ex:Municipality ;
@@ -39648,7 +39648,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/563706>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Malá Sk��la"@cs .
+        ex:municipalityName  "Malá Skála"@cs .
 
 <http://vbartonicek.cz/swe/population/563714>
         rdf:type            ex:Population ;
@@ -43311,7 +43311,7 @@
         ex:populationMen    24 ;
         ex:populationWomen  31 ;
         ex:averageAge       "35.4"^^xsd:float ;
-        ex:averageAgeMen    "35.3"^^xsd:float ;
+        ex:averageAgeMen    "35.2"^^xsd:float ;
         ex:averageAgeWomen  "35.5"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/549118>
@@ -47944,7 +47944,7 @@
         ex:population       140 ;
         ex:populationMen    68 ;
         ex:populationWomen  72 ;
-        ex:averageAge       "44.1"^^xsd:float ;
+        ex:averageAge       "44.0"^^xsd:float ;
         ex:averageAgeMen    "42.4"^^xsd:float ;
         ex:averageAgeWomen  "45.6"^^xsd:float .
 
@@ -51348,7 +51348,7 @@
         ex:populationWomen  60 ;
         ex:averageAge       "38.2"^^xsd:float ;
         ex:averageAgeMen    "38.2"^^xsd:float ;
-        ex:averageAgeWomen  "38.2"^^xsd:float .
+        ex:averageAgeWomen  "38.1"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/578053>
         rdf:type             ex:Municipality ;
@@ -53098,7 +53098,7 @@
         ex:populationWomen  172 ;
         ex:averageAge       "42.3"^^xsd:float ;
         ex:averageAgeMen    "41.3"^^xsd:float ;
-        ex:averageAgeWomen  "43.3"^^xsd:float .
+        ex:averageAgeWomen  "43.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/580422>
         rdf:type             ex:Municipality ;
@@ -53657,7 +53657,7 @@
         ex:populationMen    280 ;
         ex:populationWomen  275 ;
         ex:averageAge       "40.5"^^xsd:float ;
-        ex:averageAgeMen    "39.3"^^xsd:float ;
+        ex:averageAgeMen    "39.2"^^xsd:float ;
         ex:averageAgeWomen  "41.8"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/574392>
@@ -54236,7 +54236,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/573566>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Bělá"@cs .
+        ex:municipalityName  "Běl��"@cs .
 
 <http://vbartonicek.cz/swe/population/548430>
         rdf:type            ex:Population ;
@@ -54636,7 +54636,7 @@
         ex:population       80 ;
         ex:populationMen    41 ;
         ex:populationWomen  39 ;
-        ex:averageAge       "42.7"^^xsd:float ;
+        ex:averageAge       "42.6"^^xsd:float ;
         ex:averageAgeMen    "45.9"^^xsd:float ;
         ex:averageAgeWomen  "39.3"^^xsd:float .
 
@@ -55533,7 +55533,7 @@
         ex:populationMen    20 ;
         ex:populationWomen  20 ;
         ex:averageAge       "49.8"^^xsd:float ;
-        ex:averageAgeMen    "42.6"^^xsd:float ;
+        ex:averageAgeMen    "42.5"^^xsd:float ;
         ex:averageAgeWomen  "57.0"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/548499>
@@ -56794,7 +56794,7 @@
         ex:populationWomen  40 ;
         ex:averageAge       "38.8"^^xsd:float ;
         ex:averageAgeMen    "38.5"^^xsd:float ;
-        ex:averageAgeWomen  "39.1"^^xsd:float .
+        ex:averageAgeWomen  "39.0"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/587613>
         rdf:type             ex:Municipality ;
@@ -57116,7 +57116,7 @@
         ex:populationWomen  84 ;
         ex:averageAge       "40.3"^^xsd:float ;
         ex:averageAgeMen    "37.3"^^xsd:float ;
-        ex:averageAgeWomen  "43.3"^^xsd:float .
+        ex:averageAgeWomen  "43.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/587915>
         rdf:type             ex:Municipality ;
@@ -57340,7 +57340,7 @@
         ex:populationWomen  20 ;
         ex:averageAge       "53.4"^^xsd:float ;
         ex:averageAgeMen    "52.3"^^xsd:float ;
-        ex:averageAgeWomen  "54.6"^^xsd:float .
+        ex:averageAgeWomen  "54.5"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/588105>
         rdf:type             ex:Municipality ;
@@ -59090,7 +59090,7 @@
         ex:populationWomen  60 ;
         ex:averageAge       "40.8"^^xsd:float ;
         ex:averageAgeMen    "37.4"^^xsd:float ;
-        ex:averageAgeWomen  "44.6"^^xsd:float .
+        ex:averageAgeWomen  "44.5"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/549061>
         rdf:type             ex:Municipality ;
@@ -59159,7 +59159,7 @@
         ex:populationMen    8 ;
         ex:populationWomen  7 ;
         ex:averageAge       "65.2"^^xsd:float ;
-        ex:averageAgeMen    "63.3"^^xsd:float ;
+        ex:averageAgeMen    "63.2"^^xsd:float ;
         ex:averageAgeWomen  "67.4"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/561771>
@@ -59537,7 +59537,7 @@
         ex:populationMen    96 ;
         ex:populationWomen  112 ;
         ex:averageAge       "40.5"^^xsd:float ;
-        ex:averageAgeMen    "40.3"^^xsd:float ;
+        ex:averageAgeMen    "40.2"^^xsd:float ;
         ex:averageAgeWomen  "40.7"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/590479>
@@ -60628,7 +60628,7 @@
         ex:population       60 ;
         ex:populationMen    31 ;
         ex:populationWomen  29 ;
-        ex:averageAge       "49.1"^^xsd:float ;
+        ex:averageAge       "49.0"^^xsd:float ;
         ex:averageAgeMen    "47.4"^^xsd:float ;
         ex:averageAgeWomen  "50.8"^^xsd:float .
 
@@ -60770,7 +60770,7 @@
         ex:populationWomen  84 ;
         ex:averageAge       "42.0"^^xsd:float ;
         ex:averageAgeMen    "40.9"^^xsd:float ;
-        ex:averageAgeWomen  "43.3"^^xsd:float .
+        ex:averageAgeWomen  "43.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/591327>
         rdf:type             ex:Municipality ;
@@ -62002,7 +62002,7 @@
         ex:populationWomen  164 ;
         ex:averageAge       "44.7"^^xsd:float ;
         ex:averageAgeMen    "43.2"^^xsd:float ;
-        ex:averageAgeWomen  "46.3"^^xsd:float .
+        ex:averageAgeWomen  "46.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/595578>
         rdf:type             ex:Municipality ;
@@ -62337,7 +62337,7 @@
         ex:populationMen    132 ;
         ex:populationWomen  153 ;
         ex:averageAge       "40.2"^^xsd:float ;
-        ex:averageAgeMen    "41.3"^^xsd:float ;
+        ex:averageAgeMen    "41.2"^^xsd:float ;
         ex:averageAgeWomen  "39.3"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/595900>
@@ -62940,7 +62940,7 @@
         ex:populationWomen  160 ;
         ex:averageAge       "40.1"^^xsd:float ;
         ex:averageAgeMen    "39.0"^^xsd:float ;
-        ex:averageAgeWomen  "41.3"^^xsd:float .
+        ex:averageAgeWomen  "41.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/549916>
         rdf:type             ex:Municipality ;
@@ -63094,7 +63094,7 @@
         ex:populationWomen  60 ;
         ex:averageAge       "42.8"^^xsd:float ;
         ex:averageAgeMen    "42.5"^^xsd:float ;
-        ex:averageAgeWomen  "43.2"^^xsd:float .
+        ex:averageAgeWomen  "43.1"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/596523>
         rdf:type             ex:Municipality ;
@@ -63890,7 +63890,7 @@
         ex:population       716 ;
         ex:populationMen    333 ;
         ex:populationWomen  383 ;
-        ex:averageAge       "44.3"^^xsd:float ;
+        ex:averageAge       "44.2"^^xsd:float ;
         ex:averageAgeMen    "43.0"^^xsd:float ;
         ex:averageAgeWomen  "45.3"^^xsd:float .
 
@@ -65852,7 +65852,7 @@
         ex:populationWomen  328 ;
         ex:averageAge       "42.6"^^xsd:float ;
         ex:averageAgeMen    "40.1"^^xsd:float ;
-        ex:averageAgeWomen  "45.3"^^xsd:float .
+        ex:averageAgeWomen  "45.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/582883>
         rdf:type             ex:Municipality ;
@@ -67586,7 +67586,7 @@
         ex:population       60 ;
         ex:populationMen    30 ;
         ex:populationWomen  30 ;
-        ex:averageAge       "48.3"^^xsd:float ;
+        ex:averageAge       "48.2"^^xsd:float ;
         ex:averageAgeMen    "44.6"^^xsd:float ;
         ex:averageAgeWomen  "51.9"^^xsd:float .
 
@@ -68250,7 +68250,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/584240>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Žat��any"@cs .
+        ex:municipalityName  "Žatčany"@cs .
 
 <http://vbartonicek.cz/swe/population/597171>
         rdf:type            ex:Population ;
@@ -70122,7 +70122,7 @@
         ex:populationWomen  464 ;
         ex:averageAge       "42.7"^^xsd:float ;
         ex:averageAgeMen    "40.1"^^xsd:float ;
-        ex:averageAgeWomen  "45.3"^^xsd:float .
+        ex:averageAgeWomen  "45.2"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/586684>
         rdf:type             ex:Municipality ;
@@ -72053,7 +72053,7 @@
         ex:populationMen    60 ;
         ex:populationWomen  47 ;
         ex:averageAge       "49.2"^^xsd:float ;
-        ex:averageAgeMen    "43.6"^^xsd:float ;
+        ex:averageAgeMen    "43.5"^^xsd:float ;
         ex:averageAgeWomen  "56.5"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/594164>
@@ -72893,7 +72893,7 @@
         ex:populationMen    60 ;
         ex:populationWomen  62 ;
         ex:averageAge       "40.1"^^xsd:float ;
-        ex:averageAgeMen    "37.3"^^xsd:float ;
+        ex:averageAgeMen    "37.2"^^xsd:float ;
         ex:averageAgeWomen  "42.8"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/594792>
@@ -73486,7 +73486,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/523917>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Bělá pod Prad��dem"@cs .
+        ex:municipalityName  "Bělá pod Pradědem"@cs .
 
 <http://vbartonicek.cz/swe/population/524891>
         rdf:type            ex:Population ;
@@ -73738,7 +73738,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/553468>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Velká Kra��"@cs .
+        ex:municipalityName  "Velká Kraš"@cs .
 
 <http://vbartonicek.cz/swe/population/569453>
         rdf:type            ex:Population ;
@@ -74587,7 +74587,7 @@
         ex:populationMen    356 ;
         ex:populationWomen  356 ;
         ex:averageAge       "39.5"^^xsd:float ;
-        ex:averageAgeMen    "39.3"^^xsd:float ;
+        ex:averageAgeMen    "39.2"^^xsd:float ;
         ex:averageAgeWomen  "39.7"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/552348>
@@ -75390,7 +75390,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/589403>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Čelechovice na Hané"@cs .
+        ex:municipalityName  "��elechovice na Hané"@cs .
 
 <http://vbartonicek.cz/swe/population/589420>
         rdf:type            ex:Population ;
@@ -75777,7 +75777,7 @@
         ex:populationMen    196 ;
         ex:populationWomen  193 ;
         ex:averageAge       "43.1"^^xsd:float ;
-        ex:averageAgeMen    "41.3"^^xsd:float ;
+        ex:averageAgeMen    "41.2"^^xsd:float ;
         ex:averageAgeWomen  "45.0"^^xsd:float .
 
 <http://vbartonicek.cz/swe/municipalities/589683>
@@ -77266,7 +77266,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/515787>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Nelešovice"@cs .
+        ex:municipalityName  "Nele��ovice"@cs .
 
 <http://vbartonicek.cz/swe/population/515825>
         rdf:type            ex:Population ;
@@ -82124,7 +82124,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/545236>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Zašov��"@cs .
+        ex:municipalityName  "Zašová"@cs .
 
 <http://vbartonicek.cz/swe/population/545244>
         rdf:type            ex:Population ;
@@ -85988,7 +85988,7 @@
 
 <http://vbartonicek.cz/swe/municipalities/599191>
         rdf:type             ex:Municipality ;
-        ex:municipalityName  "Nový Jičín"@cs .
+        ex:municipalityName  "Nov�� Jičín"@cs .
 
 <http://vbartonicek.cz/swe/population/599701>
         rdf:type            ex:Population ;

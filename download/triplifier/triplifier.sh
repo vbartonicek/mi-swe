@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-
 # PREREQUSITIES - MySQL server has to run
+
+# Settings
+# ---------
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
@@ -46,6 +48,7 @@ fi
 ./d2r-server ${DIR}/municipalities-mapping.ttl &
 
 # Generate an RDF dump using the dump-rdf tool and a mapping file
+${D2RQ_PATH}/dump-rdf -f TURTLE -b ${D2RQ_SERVER} ${DIR}/municipalities-mapping.ttl > ${OUTPUT}/municipalities.ttl
 ${D2RQ_PATH}/dump-rdf -f N-TRIPLE -b ${D2RQ_SERVER} ${DIR}/municipalities-mapping.ttl > ${OUTPUT}/municipalities.nt
 
 # TODO: kill the D2r-server
@@ -68,9 +71,10 @@ echo "Step 2 of 3 - Dwellings data processed"
 
 echo "Step 3 of 3 - Processing population data started"
 
-# TODO: Add transformation from .xlxs to .csv
+# Transform .xlsx into .csv
+xlsx2csv ${SOURCE}/1300721803.xlsx > ${SOURCE}/population.csv
 
-tarql -d ";" ${DIR}/population.sparql ${SOURCE}/population.csv > ${OUTPUT}/population.ttl
-tarql -d ";" --ntriples ${DIR}/population.sparql ${SOURCE}/population.csv > ${OUTPUT}/population.nt
+tarql ${DIR}/population.sparql ${SOURCE}/population.csv > ${OUTPUT}/population.ttl
+tarql --ntriples ${DIR}/population.sparql ${SOURCE}/population.csv > ${OUTPUT}/population.nt
 
 echo "Step 3 of 3 - Population data processed"
