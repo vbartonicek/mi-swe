@@ -27,5 +27,6 @@ WHERE {
   BIND(xsd:float(REPLACE(STR(?i),"\\,",".")) AS ?averageAgeWomen) .
 }
 
+# Skipping the table header
 OFFSET 5
 #LIMIT 10

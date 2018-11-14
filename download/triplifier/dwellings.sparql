@@ -23,7 +23,7 @@ WHERE {
   BIND (xsd:integer(?tb_cis) AS ?tbCis)
   BIND (xsd:integer(?tb_kod) AS ?tbKod)
   BIND (xsd:integer(?vuzemi_cis) AS ?vuzemiCis)
-  BIND (xsd:integer(?vuzemi_kod) AS ?vuzemiKod)
+  BIND(IRI(CONCAT("http://vbartonicek.cz/swe/municipalities/", ?vuzemi_kod)) as ?vuzemiKod)
   BIND (xsd:integer(?rok) AS ?year)
   BIND (xsd:date(?casref_od) AS ?dateFrom)
   BIND (xsd:date(?casref_do) AS ?dateTo)
