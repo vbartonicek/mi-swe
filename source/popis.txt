@@ -1,4 +1,8 @@
 
+# INTRODUCTION
+The basic idea is to get information about relationship between population and number of completed dwellings in each Czech municipality.
+
+
 # DATA
 * [List of Czech municipalities](https://github.com/rotten77/cr-kraje-okresy-obce/blob/master/cr-kraje-okresy-obce.sql)
 * [Population in Czech municipalities](https://www.czso.cz/csu/czso/pocet-obyvatel-v-obcich-see2a5tx8j)
