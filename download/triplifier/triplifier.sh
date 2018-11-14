@@ -30,7 +30,7 @@ DB_PASSWORD=
 D2RQ_SERVER=http://localhost:2020/
 
 
-# Municipalities
+# Municipalities (MySQL)
 # ---------
 
 echo "Step 1 of 3 - Processing municipalities data started"
@@ -55,7 +55,7 @@ ${D2RQ_PATH}/dump-rdf -f N-TRIPLE -b ${D2RQ_SERVER} ${DIR}/municipalities-mappin
 
 echo "Step 1 of 3 - Dwellings municipalities processed"
 
-# Dwellings
+# Dwellings (.csv)
 # ---------
 
 echo "Step 2 of 3 - Processing dwellings data started"
@@ -66,7 +66,7 @@ tarql --ntriples ${DIR}/dwellings.sparql ${SOURCE}/dwellings.csv > ${OUTPUT}/dwe
 echo "Step 2 of 3 - Dwellings data processed"
 
 
-# Population
+# Population (.xlxs)
 # ---------
 
 echo "Step 3 of 3 - Processing population data started"
