@@ -1,15 +1,43 @@
 PREFIX ex: <http://vbartonicek.cz/swe/a#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dcam: <http://purl.org/dc/dcam/>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 CONSTRUCT {
   ?URI a ex:Population;
     ex:municipality ?municipalityId;
-    ex:population ?population;
-    ex:populationMen ?populationMen;
-    ex:populationWomen ?populationWomen;
-    ex:averageAge ?averageAge;
-    ex:averageAgeMen ?averageAgeMen;
-    ex:averageAgeWomen ?averageAgeWomen .
+
+    qb:population a rdf:Property, qb:MeasureProperty;
+    rdfs:label "population"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:integer .
+
+    qb:populationMen a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Men population"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:integer .
+
+    qb:populationWomen a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Women population"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:integer .
+
+    qb:averageAge a rdf:Property, qb:MeasureProperty;
+    rdfs:label "average age"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal .
+
+    qb:averageAgeMen a rdf:Property, qb:MeasureProperty;
+    rdfs:label "average men age"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal .
+
+    qb:averageAgeWomen a rdf:Property, qb:MeasureProperty;
+    rdfs:label "average women age"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal .
 
   ?municipalityId a ex:Municipality;
     ex:municipalityName ?municipalityName .

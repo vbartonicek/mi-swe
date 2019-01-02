@@ -1,9 +1,18 @@
 PREFIX ex: <http://vbartonicek.cz/swe/a#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dcam: <http://purl.org/dc/dcam/>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 CONSTRUCT {
   ?URI a ex:Dwellings;
-    ex:value ?value;
+
+    qb:value a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Dwellings built count"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:integer .
+
     ex:staproKod ?staproKod;
     ex:tb_cis ?tbCis;
     ex:tb_kod ?tbKod;
