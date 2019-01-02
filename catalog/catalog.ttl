@@ -19,14 +19,14 @@
 :dwellings
 	a dcat:Dataset ;
 	dct:title "Dwellings"@en ;
-	dct:description "TODO"@en .
+	dct:description "Dataset contain annual information about dwellings built in a municipality"@en .
 
-:municipalities
+:municipalities,
 	a dcat:Dataset ;
 	dct:title "Municipalities"@en ;
-	dct:description "TODO"@en .
+	dct:description "List of czech municipalities"@en .
 
 :population
 	a dcat:Dataset ;
 	dct:title "Population"@en ;
-	dct:description "TODO"@en .
+	dct:description "Statistical information about population and average age in a municipality"@en .
