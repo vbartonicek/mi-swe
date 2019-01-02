@@ -1,0 +1,67 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <#> .
+
+# ===== Internal datasets ===== #
+:Dwellings a void:Dataset;
+    dcterms:title "Dwellings";
+    dcterms:description "Dataset contain annual information about dwellings built in a municipality";
+    dcterms:contributor :Vratislav_Bartonicek;
+    dcterms:source <http://www.vbartonicek.cz/resources/dwellings.ttl>;
+    dcterms:modified "2019-01-02"^^xsd:date;
+    void:feature <http://www.w3.org/ns/formats/Turtle>
+    .
+
+:Municipalities a void:Dataset;
+    dcterms:title "Municipalities";
+    dcterms:description "List of Czech municipalities";
+    dcterms:contributor :Vratislav_Bartonicek;
+    dcterms:source <http://www.vbartonicek.cz/resources/municipalities.ttl>;
+    dcterms:modified "2019-01-02"^^xsd:date;
+    void:feature <http://www.w3.org/ns/formats/Turtle>
+    .
+
+:Population a void:Dataset;
+    dcterms:title "Population";
+    dcterms:description "Statistical information about population and average age in a municipality";
+    dcterms:contributor :Vratislav_Bartonicek;
+    dcterms:source <http://www.vbartonicek.cz/resources/population.ttl>;
+    dcterms:modified "2019-01-02"^^xsd:date;
+    void:feature <http://www.w3.org/ns/formats/Turtle>
+    .
+
+
+# ===== External datasets ===== #
+
+# ===== Internal linksets ===== #
+:Dwelling_Population a void:Linkset;
+    void:linkPredicate owl:sameAs ;
+    void:target :Dwelling;
+    void:target :Population
+    .
+
+:Dwelling_Municipality a void:Linkset;
+    void:linkPredicate owl:sameAs ;
+    void:target :Dwellings;
+    void:target :Municipalities
+    .
+
+:Municipality_Population a void:Linkset;
+    void:linkPredicate owl:sameAs ;
+    void:target :Municipalities;
+    void:target :Population
+    .
+
+
+# ===== External linksets ===== #
+
+
+# ===== Contributors ===== #
+:Vratislav_Bartonicek a foaf:Person;
+    rdfs:label "Vratislav Bartonicek";
+    foaf:mbox <mailto:vratislav@vbartonicek.cz>
+    .
