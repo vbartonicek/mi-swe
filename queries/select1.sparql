@@ -1,0 +1,16 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX population:  <http://vbartonicek.cz/swe/population/#>
+PREFIX municipalities:  <http://vbartonicek.cz/swe/municipalities/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+PREFIX sm:  <https://schema.org/>
+
+select * where {
+   ?mun a municipalities:Municipality .
+   OPTIONAL{
+     ?population dbo:population ?population.
+     ?population dbo:averageAge ?averageAge .
+     ?population dbo:averageMen ?averageMen .
+     ?population dbo:averageWomen ?averageWomen .
+     FILTER(?averageWomen < ?dbo:averageMen) .
+   }
+}
