@@ -1,12 +1,13 @@
 # ASK for municipalities where women outnumber men
 
 PREFIX population:  <http://vbartonicek.cz/swe/population/#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
 PREFIX ex:  <http://vbartonicek.cz/swe/a#>
 
 ASK {
    ?Population a population:Population ;
-        ex:municipality ?municipality .
-        qb:populationMen ?populationMen .
+        ex:municipality ?municipality ;
+        qb:populationMen ?populationMen ;
         qb:populationWomen ?populationWomen .
    filter(?populationWomen > ?populationMen) .
 }

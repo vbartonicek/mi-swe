@@ -3,6 +3,7 @@
 PREFIX dwellings:  <http://vbartonicek.cz/swe/dwellings/#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX ex:  <http://vbartonicek.cz/swe/a#>
 
 
 CONSTRUCT { ?dwelling a <http://vbartonicek.cz/swe/dwellings/#> .
@@ -11,8 +12,8 @@ CONSTRUCT { ?dwelling a <http://vbartonicek.cz/swe/dwellings/#> .
             ?dwelling ex:value ?constructionCount . }
 WHERE {
 ?dwelling a dwellings:dwelling ;
-           dwellings:vuzemiTxt ?municipality .
-           dwellings:value ?constructionCount .
+           dwellings:vuzemiTxt ?municipality ;
+           dwellings:value ?constructionCount ;
            dwellings:tbTxt ?type .
            VALUES (?type) { ("Rodinný dům"^^<http://www.w3.org/2001/XMLSchema#string>) }
 }

@@ -1,4 +1,4 @@
-# Select number of dwellings built in a municipality with name 'Středokluky'
+# Select number of dwellings built in a municipality with name 'Kozojedy'
 
 PREFIX dwellings:  <http://vbartonicek.cz/swe/dwellings/#>
 PREFIX dbo:  <http://dbpedia.org/ontology/#>
@@ -8,5 +8,5 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
 select * where {
    ?dwellings a dwellings:value ;
      municipalities:obec_nazev ?municipality .
-   VALUES (?municipality) { ("Středokluky"^^<http://www.w3.org/2001/XMLSchema#string>) }
+   VALUES (?municipality) { ("Kozojedy"^^<http://www.w3.org/2001/XMLSchema#string>) }
 }
