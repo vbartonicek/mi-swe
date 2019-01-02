@@ -1,0 +1,106 @@
+<Silk>
+    <Prefixes>
+        <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+        <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+        <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+    </Prefixes>
+    <DataSources>
+        <Dataset id="municipalities" type="file" uriProperty="">
+            <MetaData>
+                <Label/>
+                <Description/>
+            </MetaData>
+            <Param name="format" xml:space="preserve">
+<![CDATA[ N-Triples ]]>
+</Param>
+            <Param name="maxReadSize" xml:space="preserve">
+<![CDATA[ 10 ]]>
+</Param>
+            <Param name="file" xml:space="preserve">
+<![CDATA[ municipalities.nt ]]>
+</Param>
+            <Param name="graph" xml:space="preserve">
+<![CDATA[ ]]>
+</Param>
+            <Param name="entityList" xml:space="preserve">
+<![CDATA[ ]]>
+</Param>
+        </Dataset>
+        <Dataset id="dwellings" type="file" uriProperty="">
+            <MetaData>
+                <Label/>
+                <Description/>
+            </MetaData>
+            <Param name="format" xml:space="preserve">
+<![CDATA[ ]]>
+</Param>
+            <Param name="maxReadSize" xml:space="preserve">
+<![CDATA[ 10 ]]>
+</Param>
+            <Param name="file" xml:space="preserve">
+<![CDATA[ dwellings-smaller.nt ]]>
+</Param>
+            <Param name="graph" xml:space="preserve">
+<![CDATA[ ]]>
+</Param>
+            <Param name="entityList" xml:space="preserve">
+<![CDATA[ ]]>
+</Param>
+        </Dataset>
+    </DataSources>
+    <Interlinks>
+        <Interlink id="dwelling-municipality">
+            <MetaData>
+                <Label/>
+                <Description/>
+                <Modified>2019-01-02T09:06:08.021800Z</Modified>
+            </MetaData>
+            <SourceDataset dataSource="municipalities" var="a" typeUri="http://localhost:2020/vocab/obec">
+                <RestrictTo> </RestrictTo>
+            </SourceDataset>
+            <TargetDataset dataSource="dwellings" var="b" typeUri="http://vbartonicek.cz/swe/a#Dwellings">
+                <RestrictTo> </RestrictTo>
+            </TargetDataset>
+            <LinkageRule linkType="<http://www.w3.org/2002/07/owl#sameAs>">
+                <Compare id="levenshteinDistance1" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
+                    <Input id="sourcePath1" path="<http://localhost:2020/vocab/obec_nazev>"/>
+                    <Input id="targetPath2" path="<http://vbartonicek.cz/swe/a#vuzemiTxt>"/>
+                    <Param name="minChar" xml:space="preserve">
+<![CDATA[ 0 ]]>
+</Param>
+                    <Param name="maxChar" xml:space="preserve">
+<![CDATA[ z ]]>
+</Param>
+                </Compare>
+                <Filter/>
+            </LinkageRule>
+            <Outputs>
+                <Output id="output-dwelling-municipality"/>
+            </Outputs>
+        </Interlink>
+    </Interlinks>
+    <Transforms> </Transforms>
+    <Outputs>
+        <Dataset id="output-dwelling-municipality" type="file" uriProperty="">
+            <MetaData>
+                <Label/>
+                <Description/>
+            </MetaData>
+            <Param name="format" xml:space="preserve">
+<![CDATA[ N-Triples ]]>
+</Param>
+            <Param name="maxReadSize" xml:space="preserve">
+<![CDATA[ 10 ]]>
+</Param>
+            <Param name="file" xml:space="preserve">
+<![CDATA[ output-dwelling-municipality.nt ]]>
+</Param>
+            <Param name="graph" xml:space="preserve">
+<![CDATA[ ]]>
+</Param>
+            <Param name="entityList" xml:space="preserve">
+<![CDATA[ ]]>
+</Param>
+        </Dataset>
+    </Outputs>
+</Silk>

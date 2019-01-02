@@ -1,0 +1,25 @@
+<Interlink id="municipality-population">
+  <MetaData>
+    <Label></Label>
+    <Description></Description>
+    <Modified>2019-01-02T09:06:47.375462Z</Modified>
+  </MetaData>
+  <SourceDataset dataSource="municipalities" var="a" typeUri="http://localhost:2020/vocab/obec">
+    <RestrictTo> </RestrictTo>
+  </SourceDataset>
+  <TargetDataset dataSource="population" var="b" typeUri="http://vbartonicek.cz/swe/a#Municipality">
+    <RestrictTo> </RestrictTo>
+  </TargetDataset>
+  <LinkageRule linkType="&lt;http://www.w3.org/2002/07/owl#sameAs&gt;">
+    <Compare id="levenshteinDistance1" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
+      <Input id="sourcePath1" path="&lt;http://localhost:2020/vocab/obec_nazev&gt;"/>
+      <Input id="targetPath1" path="&lt;http://vbartonicek.cz/swe/a#municipalityName&gt;"/>
+      <Param name="minChar" xml:space="preserve"><![CDATA[0]]></Param>
+      <Param name="maxChar" xml:space="preserve"><![CDATA[z]]></Param>
+    </Compare>
+    <Filter/>
+  </LinkageRule>
+  <Outputs>
+    <Output id="output-municipality-population"></Output>
+  </Outputs>
+</Interlink>
