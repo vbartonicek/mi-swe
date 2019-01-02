@@ -1,0 +1,12 @@
+# translate dcterms:obec_nazev to rdfs:name
+
+PREFIX municipalities:  <http://vbartonicek.cz/swe/municipalities/#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+
+CONSTRUCT { ?municipality rdfs:name ?title }
+{
+  ?municipality a municipalities:municipality ;
+    dcterms:obec_nazev ?title .
+}

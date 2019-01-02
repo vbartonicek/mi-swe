@@ -1,0 +1,12 @@
+# describe all municipalities with name starting with 's' or 'S'
+
+PREFIX municipalities:  <http://vbartonicek.cz/swe/municipalities/#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+DESCRIBE ?municipalities
+{
+  ?municipality a municipalities:municipality ;
+     municipalities:obec_nazev ?name .
+  FILTER regex(?name, "^[sS]")
+}
+LIMIT 10

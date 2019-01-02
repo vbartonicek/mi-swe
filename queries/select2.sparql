@@ -1,3 +1,5 @@
+# Select number of dwellings built in a municipality with name 'Středokluky'
+
 PREFIX dwellings:  <http://vbartonicek.cz/swe/dwellings/#>
 PREFIX dbo:  <http://dbpedia.org/ontology/#>
 PREFIX municipalities:  <http://vbartonicek.cz/swe/municipalities/#>

@@ -1,0 +1,18 @@
+# Construct graph containing municipalities with number of family houses built
+
+PREFIX dwellings:  <http://vbartonicek.cz/swe/dwellings/#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+
+CONSTRUCT { ?dwelling a <http://vbartonicek.cz/swe/dwellings/#> .
+            ?dwelling ex:vuzemiTxt ?municipality .
+            ?dwelling ex:tbTxt ?type .
+            ?dwelling ex:value ?constructionCount . }
+WHERE {
+?dwelling a dwellings:dwelling ;
+           dwellings:vuzemiTxt ?municipality .
+           dwellings:value ?constructionCount .
+           dwellings:tbTxt ?type .
+           VALUES (?type) { ("Rodinný dům"^^<http://www.w3.org/2001/XMLSchema#string>) }
+}

@@ -1,3 +1,5 @@
+# select all municipalities where the average men age is higher than then average women age
+
 PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
 PREFIX population:  <http://vbartonicek.cz/swe/population/#>
 PREFIX municipalities:  <http://vbartonicek.cz/swe/municipalities/#>
